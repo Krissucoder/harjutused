@@ -1,0 +1,142 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Leht-1" id="NCaR9Ex3V5idFyfqJ-b-">
+    <mxGraphModel dx="1722" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-1" value="&lt;div&gt;// 2. &quot;Ruut&quot;&lt;/div&gt;&lt;div&gt;// tee muutuja &quot;ruudukülg&quot; milles on täisarv 0&lt;/div&gt;&lt;div&gt;// kuva kasutajale tekst millega küsid kasutajalt kui suurt ruutu ta tahab&lt;/div&gt;&lt;div&gt;// omista käsurealt saadud arv muutujasse &quot;ruudukülg&quot;&lt;/div&gt;&lt;div&gt;// kirjuta for tsükkel, tsükli tingimuse kontrolli pane i kontrollimisse muutuja &quot;ruudukülg&quot;&lt;/div&gt;&lt;div&gt;// tsükli sisse kirjuta sõne tüüpi muutuja, &quot;seeRida&quot;, kuhu omistad tühja sõne.&lt;/div&gt;&lt;div&gt;// tsükli sees on omakorda teine for tsükkel, ka selle tingimuse kontrolli pane i kontrollimisse muutuja &quot;ruudukülg&quot;&#39;&lt;/div&gt;&lt;div&gt;// nüüd sisemise tsükli sees, omista muutujale &quot;seeRida&quot; juurde liites sisse väärtus &quot;HH&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;// kui sisemine tsükkel on lõpetanud, siis kuva kasutajale see rida välja&lt;/div&gt;&lt;div&gt;// kui ka esimene tsükkel on lõpetanud, siis kuva kasutajale tekst &quot;tsüklid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="73" width="620" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-2" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="280" width="116" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-4" target="zfbeo9vF39nx5_MtRb4e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-4" value="Tekita täisarvu tüüpi muutuja &quot;ruudukülg&quot; kuhu omistad algväärtuse 0&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="400" width="186" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-5" target="zfbeo9vF39nx5_MtRb4e-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-5" value="Kuva kasutajale tekst &quot;kui suurt ruutu te tahate&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="530" width="186" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-7" value="Oota kuni&amp;nbsp; kasutaja sisestab käsureale muutujasse &quot;ruudukülg&quot; omistava arvu" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="655" width="136" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-11" target="zfbeo9vF39nx5_MtRb4e-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-11" value="Seadista for-tsükkel millel on tsükli töö joaks muutuja &quot;i&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="790" width="186" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-12" target="zfbeo9vF39nx5_MtRb4e-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="955" />
+              <mxPoint x="240" y="1640" />
+              <mxPoint x="380" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-12" value="Kas tsüklis olev muutuja &quot;i&quot; on väiksem kui arv muutujas &quot;ruudukülg&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314.5" y="910" width="199" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-14" target="zfbeo9vF39nx5_MtRb4e-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-14" value="Tekita sõne-tüüpi muutuja &quot;seeRida&quot; millesse omistame algväärtuseks&quot;&quot;." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1040" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-16" value="seadista teine for-tsükkel millel on tsükli töö joaks muutuja &quot;i&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1190" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-19" target="zfbeo9vF39nx5_MtRb4e-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-23" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zfbeo9vF39nx5_MtRb4e-22">
+          <mxGeometry x="-0.3067" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="1355" />
+              <mxPoint x="270" y="1540" />
+              <mxPoint x="380" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-33" value="ei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zfbeo9vF39nx5_MtRb4e-32">
+          <mxGeometry x="0.0058" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-19" value="Kas tsüklis olev muutuja &quot;i&quot; on väiksem kui arv mutujas &quot;ruudukülg&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1310" width="176" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="1485" />
+              <mxPoint x="620" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-21" value="Lisa muutujale &quot;seeRida&quot; olemasaolevale väärtusele juurde sõne &quot;HH&quot;." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1450" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-30" value="Kuva kasutajale muutuja &quot;seeRida&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="1560" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfbeo9vF39nx5_MtRb4e-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-35" value="Kuva kasutajale tekst &quot;tsüklid on lõpetanud&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="326.5" y="1650" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zfbeo9vF39nx5_MtRb4e-37" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1740" width="120" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
