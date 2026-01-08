@@ -23,6 +23,16 @@
             // -> do while tsükli tingimuseks kirjuta kontroll, mis kontrollib muutuja "sõnum" pikkust .Length abil, kui sõnum on pikem kui 140 tähte, siis tsükkel lõppeb
             // peale tsüklit kuva sõnum "see sõnum enam twitterisse ei mahuks, kirjuta vähem fam"
 
+            int täisArv = 0;
+            do
+            {
+                täisArv -= 2;
+                Console.WriteLine(täisArv);
+            }
+            while (täisArv > -31);
+            Console.WriteLine("tsükkel lõppes");
+
+
             /* While ülesanded*/
 
             // 1. "niikaua kuni ohtu pole"
