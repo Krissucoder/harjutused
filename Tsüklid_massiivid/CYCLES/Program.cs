@@ -111,7 +111,7 @@
                 Console.WriteLine(seeRida);
             }
             Console.WriteLine("tsüklid on lõppenud");
-        
+
 
             /* Foreach + list ülesanded */
 
@@ -124,6 +124,16 @@
              * kui programm on õigesti kirjutatud, 
              * siis kuvatakse kasutajale välja elemendid kakskümmend ja viiskümmend
              */
+            int[] apelsiniMahl = [1, 50, 10, 15, 20];
+            foreach (var arv in apelsiniMahl)
+            {
+                if (arv > 15)
+                {
+                    Console.WriteLine(arv);
+                }
+            }
+
+
 
             // 2. "summeerimine"
             // kirjuta viie elemendiga massiiv, elemendid on 343,686,2300,4439,6996, muutuja nimi otsusta ise.
