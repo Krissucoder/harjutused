@@ -48,6 +48,23 @@
              * NB programm peab niikaua käima kuni kasutaja sisestus on suurem või võrdne kui 40.000
              */
 
+            float CO2tase = 0.0f;
+            Console.WriteLine("Mis on CO2 tase?");
+            CO2tase = float.Parse(Console.ReadLine());
+            while (CO2tase <= 40.000f)
+            {
+                Console.WriteLine("Otsest ohtu ei ole");
+                Console.WriteLine("Miso on CO2 tase?");
+                CO2tase = float.Parse(Console.ReadLine());
+            }
+            if (CO2tase >= 40.000f)
+            {
+                Console.WriteLine("evakuueri hoonest süsihappe on liiga kõrgel");
+            }
+
+
+
+
             // 2. "vibumees"
             // tee muutuja "mehike" mille sees on täisarv 0
             // tee muutuja "vastus" mille sees on tühi tekst
