@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\opilane\Downloads\kristofer.cs" Link="kristofer.cs" />
-  </ItemGroup>
-
 </Project>
