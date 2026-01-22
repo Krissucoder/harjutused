@@ -14,7 +14,28 @@ namespace Fileoperatison
 
             Console.WriteLine("Kõik laulusõnad");
 
-            DisplayThisFile();
+            //DisplayThisFile();
+
+            FindWord("Billie");
+        }
+        public static void FindWord(string findThisWord)
+        {
+            using (StreamReader readFile = new StreamReader("C:\\Users\\opilane\\source\\repos\\krön\\Konspekt_Kristofer-Thor-Kr--nstr-m_IKTPe-25-1\\korrdamisül\\programmerimis-lesanded\\harjutused\\FileOperatsion\\Fileoperatison\\postkastiaadress.txt"))
+            {
+                int lnr = 0;
+                while (readFile.EndOfStream == false)
+            {
+                    string line = readFile.ReadLine();
+                    lnr++;
+
+                    if (line.Contains(findThisWord) == true)
+                    {
+                        Console.WriteLine(findThisWord+" leiti reast "+lnr);
+                    }
+                     }
+                readFile.Close();
+                    
+            }
         }
 
 
