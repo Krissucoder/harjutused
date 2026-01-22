@@ -15,6 +15,34 @@ namespace Meetod1
             //{
             //    Console.WriteLine(item);
             //}
+            List<string> otsivadFilmid = new List<string> {"Terminator","Vanamehe Film","Kratt" };
+            IdentifyMovies(filmid, otsivadFilmid);
+        }
+        public static void IdentifyMovies(List<string> collection, List<string> filter)
+        {
+            string messages = "";
+            foreach ( var movie in collection )
+            {
+                int itemnr = 0;
+                foreach (var item in filter )
+                {
+                    if ( itemnr == 0)
+                    {
+                        messages += "I'll be back. \n";
+                    }
+                    else if (itemnr == 1)
+                    {
+                        messages += "Snikurs\n";
+                    }
+                    else if ( itemnr == 2)
+                    {
+                        messages += "Vatta et tal sul tehisplära ajama ei hakka \n";
+                    }
+                    itemnr++;
+                }
+              
+            }
+           
         }
 
         public static List<string> DoYouLikeThisMovie(List<string> collection, string movieToAdd)
