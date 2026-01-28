@@ -21,6 +21,8 @@
             //erista switch case abil riik, ning prindi konsooli selle riigi lipu jagu ridu, mis on värvitud console.backgroundcolor meetodiga
             //lipuvärve vaata googlest, kasuta võimalikult sarnaseid vasteid, üks lipp on 6 rida,
             //et kolmese triibuga lippe saaks teha (&/3=2 rida per triip)ja kahe triibuga lippe saaks teha (6/2 =3 rida per triip
+            string sisestus = "";
+            Console.WriteLine("Millises riigis sa elad");
 
             //küsi kasutajalt kas ta õpib koolis
             //kui ei, siis programm lõppeb kasutajale sõnumiga "edu tööturul"
